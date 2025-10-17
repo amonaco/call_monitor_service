@@ -1,0 +1,48 @@
+# Python 
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+/site/
+
+# ML/PyTorch
+data/
+datasets/
+models/
+checkpoints/
+runs/
+logs/
+results/
+outputs/
+
+# PyTorch
+*.pt
+*.pth
+*.tar
+*.npz
+*.pkl
+
+# Jupyter Notebook files
+.ipynb_checkpoints
+
+# IDE/Editor specific files
+.idea/ # PyCharm/IntelliJ
+*.iml
+.vscode/ # VS Code settings
+*~
+.#*
+.DS_Store # macOS specific
+Thumbs.db # Windows specific
+
+# Operating System Files
+.DS_Store
+ehthumbs.db
+Icon
+desktop.ini
+
+# Project specific files (customize as needed)
+config.yaml
+*.log
